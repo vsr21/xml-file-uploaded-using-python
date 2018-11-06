@@ -1,0 +1,10 @@
+import xml.etree.ElementTree as ET
+tree=ET.parse('por.xml')
+root=tree.getroot()
+print(root)
+print(ET.tostring(root, encoding='utf8').decode('utf8'))
+(root[0][0].attrib,root[0][1].attrib,root[0][2].attrib,root[0][3].attrib,root[0][4].attrib,root[0][5].attrib,root[0][6].attrib)
+(root[1][0].attrib,root[1][1].attrib,root[1][2].attrib,root[1][3].attrib,root[1][4].attrib,root[1][5].attrib,root[1][6].attrib,root[1][7].attrib)
+(root[2][0].attrib,root[2][1].attrib,root[2][2].attrib,root[2][3].attrib,root[2][4].attrib,root[2][5].attrib)
+(root[3][0].attrib,root[3][1].attrib,root[3][2].attrib,root[3][3].attrib,root[3][4].attrib,root[3][5].attrib,root[3][6].attrib,root[3][7].attrib)
+(root[4][0].attrib,root[4][1].attrib,root[4][2].attrib,root[4][3].attrib,root[4][4].attrib,root[4][5].attrib)

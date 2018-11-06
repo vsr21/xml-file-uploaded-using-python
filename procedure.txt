@@ -1,0 +1,11 @@
+Project title:creating time table from XML file using python
+
+Introduction:we need to create a XML file of a time table and read it using python by using package element tree .
+
+Procedure:1.We need to create an XML file of a time table consisting of time periods as columns and days as rows and then we add the respective entries .
+2.save the file
+3.
+Import element tree in python as package.
+4.read the XML file in the python code
+
+Output:we get the time table from the XML file  as the output by running the python code.

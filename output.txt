@@ -1,0 +1,164 @@
+output file
+
+
+<Element 'timetable' at 0x00A2E390>
+
+decoded xml file
+<?xml version='1.0' encoding='utf8'?>
+<timetable>
+ <one name="Monday">
+  <first faculty="Nisha" name="OS" roomno.="117" time="8:30-9:20" />
+  <second faculty="Kanika" name="CN" roomno.="104" time="9:30-10:20" />
+  <third faculty="Nisha" name="OS LAB" roomno.="135" time="10:30-11:20" />
+  <fourth faculty="Nisha" name="OS LAB" roomno.="135" time="11:30-12:20" />
+  <fifth faculty="Amit Khurana" name="ADA" roomno="221" time="12:30-13:20" />
+  <sixth faculty="Sandeep" name="PYTHON" roomno="117" time="13:30-14:20" />
+  <seventh faculty="Amit Khurana" name="ADA" roomno="222" time="14:30-15:20" />
+ </one>
+ <two name="Tuesday">
+  <first faculty="Amit Khurana" name="ADA LAB" roomno.="142" time="8:30-9:20" />
+  <second faculty="Amit Khurana" name="ADA LAB" roomno.="142" time="9:30-10:20" />
+  <third>free</third>
+  <fourth>free</fourth>
+  <fifth faculty="Sandeep" name="PYTHON LAB" roomno.="124" time="12:30-13:20" />
+  <sixth faculty="Sandeep" name="PYTHON LAB" roomno.="124" time="13:30-14:20" />
+  <seventh faculty="Amanpreet Kaur" name="ML" roomno.="202" time="14:30-15:20" />
+  <eigth faculty="Amanpreet Kaur" name="ML" roomno.="202" time="15:30-16:20" />
+ </two>
+ <three name="Wednesday">
+  <first faculty="Sandeep" name="PYTHON" roomno.="109" time="8:30-9:20" />
+  <second faculty="Nisha" name="OS" roomno.="129" time="9:30-10:20" />
+  <third faculty="Deepti" name="SPANISH" roomno.="117" time="10:30-11:20" />
+  <fourth>free</fourth>
+  <fifth faculty="Deepti" name="SPANISH" roomno.="117" time="12:30-13:20" />
+  <sixth faculty="Kanika" name="CN" roomno.="109" time="13:30-14:20" />
+ </three>
+ <four name="Thursday">
+  <first faculty="Kanika" name="CN LAB" roomno.="135" time="8:30-9:20" />
+  <second faculty="Kanika" name="CN LAB" roomno.="135" time="9:30-10:20" />
+  <third faculty="Kanika" name="CN" roomno.="220" time="10:30-11:20" />
+  <fourth>free</fourth>
+  <fifth faculty="Deepti" name="SPANISH" roomno.="117" time="12:30-13:20" />
+  <sixth faculty="Nisha" name="OS" roomno.="221" time="13:30-14:20" />
+  <seventh faculty="Amanpreet Kaur" name="ML LAB" roomno.="303" time="14:30-15:20" />
+  <eigth faculty="Amanpreet Kaur" name="ML LAB" roomno.="303" time="15:30-16:20" />
+ </four>
+ <five name="Friday">
+  <first faculty="Amit Khurana" name="ADA" roomno.="109" time="8:30-9:20" />
+  <second faculty="Sandeep" name="PYTHON" roomno.="129" time="9:30-10:20" />
+  <third faculty="Amit Khurana" name="ADA" roomno.="220" time="10:30-11:20" />
+  <fourth>free</fourth>
+  <fifth faculty="Priyanka Rastogi" name="VA-2" roomno.="301" time="12:30-13:20" />
+  <sixth faculty="Priyanka Rastogi" name="VA-2" roomno.="301" time="13:30-14:20" />
+ </five>
+</timetable>
+
+Monday({'name': 'OS', 'faculty': 'Nisha', 'time': '8:30-9:20', 'roomno.': '117'},
+ {'name': 'CN', 'faculty': 'Kanika', 'time': '9:30-10:20', 'roomno.': '104'},
+ {'name': 'OS LAB',
+  'faculty': 'Nisha',
+  'time': '10:30-11:20',
+  'roomno.': '135'},
+ {'name': 'OS LAB',
+  'faculty': 'Nisha',
+  'time': '11:30-12:20',
+  'roomno.': '135'},
+ {'name': 'ADA',
+  'faculty': 'Amit Khurana',
+  'time': '12:30-13:20',
+  'roomno': '221'},
+ {'name': 'PYTHON',
+  'faculty': 'Sandeep',
+  'time': '13:30-14:20',
+  'roomno': '117'},
+ {'name': 'ADA',
+  'faculty': 'Amit Khurana',
+  'time': '14:30-15:20',
+  'roomno': '222'})
+Tuesday({'name': 'ADA LAB',
+  'faculty': 'Amit Khurana',
+  'time': '8:30-9:20',
+  'roomno.': '142'},
+ {'name': 'ADA LAB',
+  'faculty': 'Amit Khurana',
+  'time': '9:30-10:20',
+  'roomno.': '142'},
+ {},
+ {},
+ {'name': 'PYTHON LAB',
+  'faculty': 'Sandeep',
+  'time': '12:30-13:20',
+  'roomno.': '124'},
+ {'name': 'PYTHON LAB',
+  'faculty': 'Sandeep',
+  'time': '13:30-14:20',
+  'roomno.': '124'},
+ {'name': 'ML',
+  'faculty': 'Amanpreet Kaur',
+  'time': '14:30-15:20',
+  'roomno.': '202'},
+ {'name': 'ML',
+  'faculty': 'Amanpreet Kaur',
+  'time': '15:30-16:20',
+  'roomno.': '202'})
+
+Wednesday({'name': 'PYTHON',
+  'faculty': 'Sandeep',
+  'time': '8:30-9:20',
+  'roomno.': '109'},
+ {'name': 'OS', 'faculty': 'Nisha', 'time': '9:30-10:20', 'roomno.': '129'},
+ {'name': 'SPANISH',
+  'faculty': 'Deepti',
+  'time': '10:30-11:20',
+  'roomno.': '117'},
+ {},
+ {'name': 'SPANISH',
+  'faculty': 'Deepti',
+  'time': '12:30-13:20',
+  'roomno.': '117'},
+ {'name': 'CN', 'faculty': 'Kanika', 'time': '13:30-14:20', 'roomno.': '109'})
+Thursday({'name': 'CN LAB',
+  'faculty': 'Kanika',
+  'time': '8:30-9:20',
+  'roomno.': '135'},
+ {'name': 'CN LAB',
+  'faculty': 'Kanika',
+  'time': '9:30-10:20',
+  'roomno.': '135'}
+ {'name': 'CN', 'faculty': 'Kanika', 'time': '10:30-11:20', 'roomno.': '220'},
+ {},
+ {'name': 'SPANISH',
+  'faculty': 'Deepti',
+  'time': '12:30-13:20',
+  'roomno.': '117'},
+ {'name': 'OS', 'faculty': 'Nisha', 'time': '13:30-14:20', 'roomno.': '221'},
+ {'name': 'ML LAB',
+  'faculty': 'Amanpreet Kaur',
+  'time': '14:30-15:20',
+  'roomno.': '303'},
+ {'name': 'ML LAB',
+  'faculty': 'Amanpreet Kaur',
+  'time': '15:30-16:20',
+  'roomno.': '303'})
+Friday({'name': 'ADA',
+  'faculty': 'Amit Khurana',
+  'time': '8:30-9:20',
+  'roomno.': '109'},
+ {'name': 'PYTHON',
+  'faculty': 'Sandeep',
+  'time': '9:30-10:20',
+  'roomno.': '129'},
+ {'name': 'ADA',
+  'faculty': 'Amit Khurana',
+  'time': '10:30-11:20',
+  'roomno.': '220'},
+ {},
+ {'name': 'VA-2',
+  'faculty': 'Priyanka Rastogi',
+  'time': '12:30-13:20',
+  'roomno.': '301'},
+ {'name': 'VA-2',
+  'faculty': 'Priyanka Rastogi',
+  'time': '13:30-14:20',
+  'roomno.': '301'})
+
